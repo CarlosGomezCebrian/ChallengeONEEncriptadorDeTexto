@@ -1,0 +1,133 @@
+body {
+    background: #f3f5fc;
+}
+
+/* overflow: hidden;*/
+.logo {
+    padding-top: 2%;
+    margin-left: 2%;
+    width: 3%;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3%;
+
+}
+
+
+.seccionIzq {
+    width: 50%;
+    height: 100%;
+    margin-left: 5%;
+}
+
+.seccionDer {
+    height: 100%;
+    width: 40%;
+    margin-left: 5%;
+}
+
+/*background: #f3f5fc;*/
+.textArea {
+    width: 100%;
+    resize: none;
+    background: #f3f5fc;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 2em;
+    border: none;
+    color: #0A3871;
+    text-transform: lowercase;
+}
+
+.textArea::placeholder {
+    color: #0A3871;
+    font-family: "Inter";
+    font-weight: 400;
+
+}
+
+.textArea:focus {
+    outline: none;
+}
+
+.mensaje {
+    width: 80%;
+    resize: none;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 2em;
+    background: #f3f5fc;
+    background: white;
+    background-image: url(imagenes/muneco.png);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+
+}
+
+.mensaje:focus {
+    outline: none;
+}
+
+
+
+.botonEncriptar {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 2em;
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    margin-top: 12px;
+    width: 45%;
+    margin-right: 5%;
+    height: 1.5em;
+}
+
+.botonDesencriptar {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 2em;
+    background-color: #D8DFE8;
+    border: 3px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    margin-top: 12px;
+    width: 45%;
+    margin-left: 0%;
+    height: 1.5em;
+}
+
+/*display: none;*/
+.botonCopiar {
+    display: none;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 2em;
+    border: 3px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    margin-top: 6%;
+    width: 70%;
+    height: 1.5em;
+
+
+
+}
+
+.informacion {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 90%;
+    color: #495857;
+    margin-left: 5%;
+
+}
