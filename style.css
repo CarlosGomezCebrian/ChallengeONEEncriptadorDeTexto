@@ -131,3 +131,23 @@ main {
     margin-left: 5%;
 
 }
+@media (max-width: 912px) { 
+    .seccionIzq, .seccionDer, .botonEncriptar, .botonDesencriptar, .mensaje, .botonCopiar {
+      width: 100%; align-items: center;
+      margin-right: 5%;
+    }
+    .mensaje{
+        margin-top: 5%;
+    }
+    .botonCopiar{
+        margin-bottom: 5%;
+    }
+    header {
+        position: fixed;
+        top: 0; 
+        left: 0; 
+        width: 300%;
+        background: #f3f5fc;
+
+    }
+}
