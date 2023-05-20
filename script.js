@@ -1,13 +1,14 @@
 const textArea = document.querySelector(".textArea");
 const mensaje = document.querySelector(".mensaje");
 const botonCopiar = document.querySelector(".botonCopiar")
-
+const ningunMensaje = document.querySelector(".ningunMensaje")
 function botonEncriptar() {
     const textoEncriptado = encriptar(textArea.value)
     mensaje.value = textoEncriptado
-    textArea.value = "";
-    mensaje.style.backgroundImage = "none";
+    textArea.value = "";    
     botonCopiar.style.display = "inherit";
+    mensaje.style.display = "inherit"
+    ningunMensaje.style.display = "none"
 }
 
 function encriptar(stringEncriptada) {
@@ -26,7 +27,9 @@ function botonDesencriptar() {
     mensaje.value = textoEncriptado
     textArea.value = "";
     botonCopiar.style.display = "inherit";
-    mensaje.style.backgroundImage = "none";
+    mensaje.style.display = "inherit"
+    ningunMensaje.style.display = "none"
+   
 }
 
 function Desencriptar(stringDesencriptada) {
@@ -44,8 +47,9 @@ function copiarTexto(texto) {
     const textoCopiado = (mensaje.value)
     textArea.value = textoCopiado
     mensaje.value = "";
-    textArea.focus();
-    mensaje.style.backgroundImage = "";
+    textArea.focus();    
     botonCopiar.style.display = "none";
+    mensaje.style.display = "none"
+    ningunMensaje.style.display = "inherit"
     return texto
 }

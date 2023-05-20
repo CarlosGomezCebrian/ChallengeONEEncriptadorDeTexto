@@ -54,23 +54,36 @@ main {
 }
 
 .mensaje {
-    width: 80%;
+    display: none;
+    width: 90%;   
     resize: none;
     font-family: "Inter";
-    font-weight: 400;
-    font-size: 2em;
-    background: #f3f5fc;
+    font-weight: 400;    
+    font-size: 2em;   
     background: white;
-    background-image: url(imagenes/muneco.png);
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;   
     border: none;
-    border-radius: 24px;
+    border-radius: 24px ;
     color: #0A3871;
-
+    
 }
 
 .mensaje:focus {
     outline: none;
+}
+
+.ningunMensaje {       
+    display: inherit;
+    width: 90%;
+    font-family: "Inter";
+    font-weight: 400;
+    color: #0A3871;
+    font-size: 2em;
+    background: white;
+    border-radius: 24px;
+    text-align: center;
+    
+
 }
 
 
@@ -82,7 +95,7 @@ main {
     background-color: #0A3871;
     border: 1px solid #0A3871;
     border-radius: 24px;
-    color: white;
+    color: #D8DFE8;
     cursor: pointer;
     margin-top: 12px;
     width: 45%;
@@ -116,11 +129,8 @@ main {
     color: #0A3871;
     cursor: pointer;
     margin-top: 6%;
-    width: 70%;
+    width: 90%;
     height: 1.5em;
-
-
-
 }
 
 .informacion {
@@ -131,12 +141,13 @@ main {
     margin-left: 5%;
 
 }
+
 @media (max-width: 912px) { 
-    .seccionIzq, .seccionDer, .botonEncriptar, .botonDesencriptar, .mensaje, .botonCopiar {
+    .seccionIzq, .seccionDer, .botonEncriptar, .botonDesencriptar, .mensaje, .botonCopiar, .ningunMensaje {
       width: 100%; align-items: center;
       margin-right: 5%;
     }
-    .mensaje{
+    .mensaje, .ningunMensaje {
         margin-top: 5%;
     }
     .botonCopiar{
