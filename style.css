@@ -164,6 +164,10 @@ main {
     margin-left: 5%;
 
 }
+.informacion::before{
+    content: url(imagenes/bi_exclamation-circle-fill.png);
+    margin-right: .3em;
+}
 
 @media (max-width: 912px) { 
     .seccionIzq, .seccionDer, .botonEncriptar, .botonDesencriptar, .mensaje, .botonCopiar, .ningunMensaje {
