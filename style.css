@@ -66,6 +66,8 @@ main {
     border-radius: 24px ;
     color: #0A3871;
     text-align: center;
+    box-shadow: 5px 5px  #D8DFE8;
+
     
 }
 
@@ -83,6 +85,8 @@ main {
     background: white;
     border-radius: 24px;
     text-align: center;
+    box-shadow: 5px 5px  #D8DFE8;
+
     
 
 }
@@ -102,6 +106,12 @@ main {
     width: 45%;
     margin-right: 5%;
     height: 1.5em;
+    box-shadow: 5px 5px  #D8DFE8;
+    
+}
+.botonEncriptar:hover {
+    scale: 1.1;
+    box-shadow: 5px 5px 10px #0A3871;
 }
 
 .botonDesencriptar {
@@ -117,6 +127,12 @@ main {
     width: 45%;
     margin-left: 0%;
     height: 1.5em;
+    box-shadow: 5px 5px  #D8DFE8;
+
+}
+.botonDesencriptar:hover {
+    scale: 1.1;
+    box-shadow: 5px 5px 10px #0A3871;
 }
 
 /*display: none;*/
@@ -132,6 +148,12 @@ main {
     margin-top: 6%;
     width: 90%;
     height: 1.5em;
+    box-shadow: 5px 5px  #D8DFE8;
+
+}
+.botonCopiar:hover{
+    scale: 1.1;
+    box-shadow: 5px 5px 10px #0A3871;
 }
 
 .informacion {
