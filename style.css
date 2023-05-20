@@ -65,6 +65,7 @@ main {
     border: none;
     border-radius: 24px ;
     color: #0A3871;
+    text-align: center;
     
 }
 
@@ -136,7 +137,7 @@ main {
 .informacion {
     font-family: "Inter";
     font-weight: 400;
-    font-size: 90%;
+    font-size: .9em;
     color: #495857;
     margin-left: 5%;
 
@@ -150,6 +151,15 @@ main {
     .mensaje, .ningunMensaje {
         margin-top: 5%;
     }
+    .textArea{
+        margin-top: 20%;        
+    }  
+
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+   
     .botonCopiar{
         margin-bottom: 5%;
     }
@@ -161,4 +171,13 @@ main {
         background: #f3f5fc;
 
     }
+}
+@media (max-width: 401px){
+    .textArea, .mensaje, .ningunMensaje{
+        font-size: 1em;     
+    } 
+    .informacion{
+        font-size: 70%;
+    }  
+
 }
